@@ -24,7 +24,8 @@
         android:paddingTop="25dp"
         android:text="start quiz"
         android:background="#dd2c00"
-        android:id="@+id/quizbtn" />
+        android:id="@+id/quizbtn"
+        android:onClick="start"/>
 
     <Button
         android:id="@+id/aboutbtn"
@@ -39,5 +40,6 @@
         android:paddingBottom="25dp"
         android:paddingTop="25dp"
         android:background="#dd2c00"
-        android:text="ABOUT APP" />
+        android:text="ABOUT APP"
+        android:onClick="About"/>
 </RelativeLayout>
